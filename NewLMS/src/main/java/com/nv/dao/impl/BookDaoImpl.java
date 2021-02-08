@@ -3,6 +3,7 @@ package com.nv.dao.impl;
 import java.util.ArrayList;
 
 import com.nv.bean.Book;
+import com.nv.bean.Login;
 import com.nv.dao.BookDao;
 
 public class BookDaoImpl implements BookDao {
@@ -11,6 +12,7 @@ public class BookDaoImpl implements BookDao {
 	public static ArrayList<Book> bookIssueList = new ArrayList<>();
 	Book book1 = new Book("Computer", "Networking", "Tom", 200, 100);
 	Book book2 = new Book("Java", "Techincal", "James Goshling", 400, 100);
+	Login login=new Login();
 	boolean status = false;
 	
 	
@@ -81,6 +83,7 @@ public class BookDaoImpl implements BookDao {
 			System.out.println("No Books are Issued");
 		} else {
 			for (Book b : bookIssueList) {
+				System.out.println("The book Has been issued by id= "+login.getsName());
 				System.out.println(b.toString());
 			}
 		}
