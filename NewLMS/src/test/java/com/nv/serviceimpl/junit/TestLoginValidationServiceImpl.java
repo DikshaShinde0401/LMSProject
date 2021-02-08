@@ -25,17 +25,17 @@ public class TestLoginValidationServiceImpl {
 	}
 
 	@Test
-	public void testCredententialsAdmin() throws IOException {
-		Actual = obj.credententials();
+	public void testAuthenticationAdmin() throws IOException {
+		Actual = obj.Authentication();
 		Assertions.assertEquals(Excepted, Actual, "Only admin can Login");
 
 	}
 
 	@Test
-	public void testCredententialsStudent() throws IOException {
+	public void testAuthenticationStudent() throws IOException {
 		int Actual = 0;
 		int Excepted = 2;
-		Actual = obj.credententials();
+		Actual = obj.Authentication();
 
 	}
 
