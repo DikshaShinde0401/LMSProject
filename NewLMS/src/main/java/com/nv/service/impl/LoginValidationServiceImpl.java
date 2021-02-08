@@ -20,7 +20,7 @@ public class LoginValidationServiceImpl implements LoginValidationService {
 	List<Login> list = new ArrayList<Login>();
 	private static int who = 1;
 	
-	public int credententials() throws IOException {
+	public int Authentication() throws IOException {
 
 		list.add(librarian);
 		list.add(student);

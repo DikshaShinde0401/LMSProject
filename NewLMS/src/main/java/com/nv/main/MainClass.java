@@ -62,7 +62,7 @@ public class MainClass {
 		log.info(".......Welcome To Library......");
 
 		while (true) {
-			i = loginValidationService.credententials();
+			i = loginValidationService.Authentication();
 			while (true) {
 				if (i == 1) {
 					test.librarianShowMenu();
@@ -71,8 +71,8 @@ public class MainClass {
 					test.studentShowMenu();
 
 				} else if (i == 3) {
-					System.out.println("....Wrong credentials...");
-					log.error(".......Wrong credentials......");
+					System.out.println("....Wrong UserName Password...");
+					log.error(".......Wrong UserName Password......");
 					System.out.println("...Please Enter Right details...");
 					break;
 				}
@@ -292,7 +292,7 @@ public class MainClass {
 	private void logout() throws IOException {
 		while (true) {
 			int i;
-			i = loginValidationService.credententials();
+			i = loginValidationService.Authentication();
 			while (true) {
 				if (i == 1) {
 					librarianShowMenu();
