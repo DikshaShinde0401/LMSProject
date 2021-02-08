@@ -1,0 +1,83 @@
+Create a library management system with following use cases 
+
+1) As a librarian, you should be able to add a new book, with following details Book Name, Book Subject (like Database, QA, Computer Network),  Author Name, Page Number and Price 
+2) As a librarian you should be able to see all the books in the library 
+3) As a student, you should be able to search a book by Title or Author 
+4) As a student you should be able to loan a book and return it 
+3) As a librarian you should be able to see all the books loaned out to students
+
+
+Guideline
+
+1. The online system should have login for Student and librarian  
+2. The online system doesn't need to have a UI, but it should be a continuum.
+3. This application shouldn't use any database or frameworks.
+
+
+=============================================================================================
+
+Needs improvement on below points
+1. One function should be doing one specific functionality
+
+2. Review methods created in the classes. See if they fit in the corresponding class or not? How to identify the class in which a method should be kept?
+e.g. As a student I should be able to issue a Book
+Put it where?
+- BookService
+- StudentService
+- etc
+
+
+3. Difference between association and dependency  with example.
+
+
+4. Check if proper log messages are kept in code which would help in debugging. System.out.println will be used for showing choice to the user.
+
+showAllBooks needs clean up
+
+5. which should be correct place to put code responsibile for adding default things(librarian credentials, books already present in the library, etc) in the application?
+
+6. review multiple choice variable usage?
+
+Requirements worked on:
+1. As a librarian, you should be able to add a new book, with following details Book Name, Book Subject (like Database, QA, Computer Network),  Author Name, Page Number and Price -> CODE CLEAN UP REQUIRED
+
+2. As a librarian you should be able to see all the books in the library -> CODE CLEAN UP REQUIRED
+
+3. As a student, you should be able to search a book by Title or Author -> PENDING
+
+4. As a student, you should be able to see all the available books in the library. -> PENDING/complete
+
+5. As a student you should be able to loan and return a book -> PENDING/complete
+
+6. As a librarian you should be able to see all the books loaned out to students -> PENDING/complete
+
+
+Dao packages are missing..........complete
+
+
+No need to have separate choice for login as Librarian and Student.......complete
+=============================================
+
+
+Create a library management system with following capabilities :
+
+1. The online system should have signup, login and log out capabilities.......complete
+
+2. The online system doesn't need to have a UI, but it should be a continuum...ok
+
+3. The library will have 2 sections: reference and  issue.
+
+4. The catalogs for these 2 sections should be available as list as well as search on list.
+
+5. Issuing books are only available for the issue section where as reference is only for reading.
+
+6. The issue section should have an inventory listing. 
+When a book is being issued the inventory list should reflect a book being issued or returned
+
+7. In case a book is out of stock, there should be an issuing queue through which students can 
+queue for issuing book once its available
+
+
+....................
+creditals method changename,single responsiabilty method,should excepted parameters name,pass
+delete method status
