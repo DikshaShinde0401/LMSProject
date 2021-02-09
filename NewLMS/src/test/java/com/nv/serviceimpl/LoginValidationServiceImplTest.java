@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 
 import com.nv.service.impl.LoginValidationServiceImpl;
 
-public class TestLoginValidationServiceImpl {
+public class LoginValidationServiceImplTest {
 
 	private LoginValidationServiceImpl obj;
 	private int Excepted;

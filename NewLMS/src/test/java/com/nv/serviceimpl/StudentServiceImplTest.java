@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import com.nv.service.impl.StudentServiceImpl;
 
-public class TestStudentServiceImpl {
+public class StudentServiceImplTest {
 	private StudentServiceImpl obj = new StudentServiceImpl();
 	@Test
 	public void testAddStudentDetails() {
