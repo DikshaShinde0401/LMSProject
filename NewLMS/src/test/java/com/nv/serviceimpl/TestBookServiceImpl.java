@@ -1,4 +1,4 @@
-package com.nv.serviceimpl.junit;
+package com.nv.serviceimpl;
 
 
 public class TestBookServiceImpl {

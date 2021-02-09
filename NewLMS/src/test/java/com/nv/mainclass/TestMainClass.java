@@ -1,4 +1,4 @@
-package com.nv.main.junit;
+package com.nv.mainclass;
 
 import java.io.IOException;
 

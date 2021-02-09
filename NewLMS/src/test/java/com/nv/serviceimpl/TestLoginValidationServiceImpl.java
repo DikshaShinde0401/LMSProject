@@ -1,4 +1,4 @@
-package com.nv.serviceimpl.junit;
+package com.nv.serviceimpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

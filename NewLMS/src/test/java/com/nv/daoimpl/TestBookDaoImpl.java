@@ -1,4 +1,4 @@
-package com.nv.daoimpl.junit;
+package com.nv.daoimpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

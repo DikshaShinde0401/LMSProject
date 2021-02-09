@@ -1,4 +1,4 @@
-package com.nv.daoimpl.junit;
+package com.nv.daoimpl;
 
 import java.io.IOException;
 
