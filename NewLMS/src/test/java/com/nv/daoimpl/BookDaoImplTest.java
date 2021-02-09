@@ -8,7 +8,7 @@ import com.nv.bean.Book;
 import com.nv.dao.BookDao;
 import com.nv.dao.impl.BookDaoImpl;
 
-public class TestBookDaoImpl {
+public class BookDaoImplTest {
 	BookDao bookDao = new BookDaoImpl();
 
 	@Test

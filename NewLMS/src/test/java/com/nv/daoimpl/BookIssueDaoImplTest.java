@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import com.nv.dao.BookIssueDao;
 import com.nv.dao.impl.BookIssueDaoImpl;
 
-public class TestBookIssueDaoImpl {
+public class BookIssueDaoImplTest {
 	private BookIssueDao bookIssueImpl=null;
 	@Test
 	@Before

@@ -10,7 +10,7 @@ import com.nv.bean.Student;
 import com.nv.dao.StudentDao;
 import com.nv.dao.impl.StudentDaoImpl;
 
-public class TestStudentDaoImpl {
+public class StudentDaoImplTest {
 @Test
 public void testAddStudentDetails() throws IOException {
 	StudentDao studentDao=new StudentDaoImpl();
